@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+nav {
+  background-color: rgb(228, 228, 2);
+}
+.intro {
+  background-color: rgb(178, 178, 199);
+}
+.work {
+  background-color: rgb(226, 153, 17);
+}
+main {
+  display: flex;
+}
+.logo-photo {
+  display: flex;
+}
+.tech-stack ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.portfolio ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
