@@ -1,21 +1,45 @@
 * {
   box-sizing: border-box;
 }
-nav {
+
+body {
+  position: relative;
+  background-color: blue;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+header {
   background-color: rgb(228, 228, 2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 95vh;
+  width: 200px;
+}
+
+main {
+  margin-left: 200px;
+  display: flex;
+  height: 95vh;
 }
 .intro {
   background-color: rgb(178, 178, 199);
 }
+
 .work {
   background-color: rgb(226, 153, 17);
 }
-main {
+
+nav ul {
+  list-style: none;
+  height: 50vh;
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.logo-photo {
-  display: flex;
-}
+
 .tech-stack ul {
   list-style: none;
   display: flex;
