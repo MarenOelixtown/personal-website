@@ -75,3 +75,10 @@ a:hover {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.logo {
+  display: inline-block;
+  margin: 0;
+}
+figcaption {
+  visibility: hidden;
+}
