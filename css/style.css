@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -24,6 +25,11 @@ main {
   display: flex;
   height: 95vh;
 }
+
+footer p {
+  text-align: right;
+}
+
 .intro {
   background-color: rgb(178, 178, 199);
 }
@@ -35,9 +41,27 @@ main {
 nav ul {
   list-style: none;
   height: 50vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  display: inline-block;
+}
+nav ul li {
+  background-color: white;
+  border: 3px solid black;
+  margin: 45px 0;
+  text-align: center;
+  padding: 8px;
+}
+nav ul li:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
 }
 
 .tech-stack ul {
