@@ -30,12 +30,22 @@ footer p {
   text-align: right;
 }
 
+h1 {
+  font-size: 3em;
+  margin-top: 0;
+}
 .intro {
   background-color: rgb(178, 178, 199);
+  padding: 50px 50px;
+  display: ;
+}
+.intro .center {
+  text-align: center;
 }
 
 .work {
   background-color: rgb(226, 153, 17);
+  padding: 50px 50px;
 }
 
 nav ul {
@@ -75,10 +85,24 @@ a:hover {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.logo {
+
+.justify {
+  text-align: justify;
+}
+
+/* social-media-logos side by side*/
+.logo-sidebyside {
   display: inline-block;
+  position: relative;
+  left: 40%;
   margin: 0;
 }
+
+figure {
+  margin: 0;
+}
+
 figcaption {
   visibility: hidden;
+  font-size: 7%;
 }
