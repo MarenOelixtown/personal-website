@@ -37,7 +37,6 @@ h1 {
 .intro {
   background-color: rgb(178, 178, 199);
   padding: 50px 50px;
-  display: ;
 }
 .intro .center {
   text-align: center;
@@ -93,9 +92,16 @@ a:hover {
 /* social-media-logos side by side*/
 .logo-sidebyside {
   display: inline-block;
-  position: relative;
-  left: 40%;
   margin: 0;
+}
+.xing {
+  position: relative;
+  left: 35%;
+}
+
+.linkedin {
+  position: relative;
+  left: 45%;
 }
 
 figure {
